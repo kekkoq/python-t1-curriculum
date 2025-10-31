@@ -1,34 +1,26 @@
-# Problem 1
-# Create a variable for your lucky number and print it.
+# Your variables
 lucky_number = 12
-print("My lucky number is:", lucky_number)
-
-
-# Problem 2
-# Create a variable for the number of hours you sleep and print it.
 hours_i_sleep = 0
-print("I sleep for", hours_i_sleep, "hours")
-
-# Problem 3
-# Create a variable for your favorite fruit and print it in a full sentence.
 fav_fruit = "pineapple"
-print("My_favourite_fruit_is", fav_fruit)
-
-# Problem 4
-# Create two variables: one for your city and one for your country.
-# Print them on 2 separate lines.
 city = "redmond"
 country = "united_states"
-print(city)
-Print(country)
-
-
-# Problem 5
-# Create 3 variables: your pet's name, its age, and its type.
-# Print them on the same line in a full sentence.
-
 name = "mateo"
 age = 6
-type = "wiener_dog"
+type_of_dog = "wiener_dog"
 
-print("My_dog's_name_is_" mateo "his_age_is_" age "and his type is" wiener_dog)
+# Print to terminal
+print("My lucky number is:", lucky_number)
+print("I sleep for", hours_i_sleep, "hours")
+print("My favourite fruit is", fav_fruit)
+print(city)
+print(country)
+print("My dog's name is", name, "his age is", age, "and his type is", type_of_dog)
+
+# Write to file
+with open("output_log.txt", "w") as f:
+    f.write(f"My lucky number is: {lucky_number}\n")
+    f.write(f"I sleep for {hours_i_sleep} hours\n")
+    f.write(f"My favourite fruit is {fav_fruit}\n")
+    f.write(f"{city}\n")
+    f.write(f"{country}\n")
+    f.write(f"My dog's name is {name}, his age is {age}, and his type is {type_of_dog}\n")
