@@ -1,3 +1,3 @@
-
-for abc in range(2, 10, 2):
-    print(abc)
+x = 2
+for i in range(10):
+    x = x + 2
