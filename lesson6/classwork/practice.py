@@ -3,7 +3,8 @@
 pets = ["dog", "cat", "dog", "hamster", "dog", "parrot"]
 print(pets)
 
-
+num_dogs = pets.count("dogs")
+print(num_dogs, "dogs")
 
 # Problem 2
 # Count and print how many numbers are odd in the list (a number is odd if it's not divisible by 2).

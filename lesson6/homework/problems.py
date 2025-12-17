@@ -3,6 +3,8 @@
 names = ["Liam", "Alex", "Sophie", "Alex", "Mia"]
 print(names)
 
+num_alexes = names.count("Alex")
+print(num_alexes, "Alex")
 
 
 # Problem 2
@@ -10,7 +12,8 @@ print(names)
 animals = ["zebra", "giraffe", "lion", "tiger"]
 print(animals)
 
-
+num_elephants = animals.count("Elephant")
+print(num_elephants, "Elephants")
 
 # Problem 3
 # Count and print how many scores are 100.
