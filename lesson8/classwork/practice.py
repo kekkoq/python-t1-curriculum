@@ -1,11 +1,17 @@
 # Problem 1
 # Write a function that returns your favorite fruit and print it.
-
+def favourite_fruit():
+    fav_fruit = "mango"
+    print(fav_fruit)
+favourite_fruit()
 
 
 # Problem 2
 # Write a function that returns a smiley face and print it.
-
+def smiley_face():
+    face = ":)"
+    return face
+print(smiley_face())
 
 
 # Problem 3
